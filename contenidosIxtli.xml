@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CONTENIDOS>
+<content total="3" date="06/10/2010">
+	<proyect id="1" name= "Reconstruccion virtual de un craneo" area="Ciencias Biologicas Quimicas y de la Salud">
+		<img src="recursos/craneoDes.jpg"/>
+	    <tags> 
+		    <tag id="1" value="craneo"/>
+		    <tag id="2" value="biologia"/>
+		    <tag id="3" value="salud"/>
+		    <tag id="4" value ="medicina"/>
+		</tags>
+       <proyect_path computer="HP wx4900"  os="GNU/Linux Debian" ip="132.248.83.1" user="ixtli" password="ieghee2Q">
+			<path value="/home/ixtli/PROYECTOS/040203HUM/Demo"/>
+			<version id="1" name ="CraneoCorto"  script="run_CraneoCorto.sh" description=""/>
+			<version id="2" name ="CraneoBotonera"  script="run_Craneo_BotoneraAmira.sh" description=""/>
+		</proyect_path>
+    </proyect>
+	
+	<proyect id="2" name= "La pintura mura en México, bonampak"  area="Humanidades y Artes">
+		<img src="recursos/bonampak.jpg"/>
+	    <tags> 
+		    <tag id="1" value="Suchilquitongo"/>
+		    <tag id="2" value="Humanidades"/>	
+		    <tag id="3" value="Recorridos virtuales"/>
+		    <tag id="4" value="Sitios Arqueológico"/>
+		</tags>
+		<proyect_path computer="SGI Onyx 350"  os="Irix 64">
+			<path value="/home/ixtli/navio"/>
+				<version id="2" name ="bonampakSGI"  script="run_3P_bonampak_path.sh" description="solo para 3 pipes en la SGI"/>
+		</proyect_path>
+		<proyect_path computer="HP wx4900"  os="GNU/Linux Debian" ip="132.248.83.1" user="ixtli" password="ieghee2Q">
+			<path value="/home/ixtli/PROYECTOS/Bonampak"/>
+				<version id="1" name ="bonampak3P"  script="run_3P_bonampak_path.sh"  description=""/>
+				<version id="2" name ="bonampak3PMono"  script="run_3P_bonampak_mono.sh"  description=""/>
+		</proyect_path>
+    </proyect>
+	
+    <proyect id="3" name= "Reconstrucción virtual de la tumba 5 en suchilquitongo"  area="Humanidades y Artes">
+	<img src="recursos/tumbaSuchil.jpg"/>
+	    <tags> 
+		    <tag id="1" value="Suchilquitongo"/>
+		    <tag id="2" value="Humanidades"/>	
+		    <tag id="3" value="Recorridos virtuales"/>
+		    <tag id="4" value="Sitios Arqueológico"/>
+		</tags>
+		<proyect_path computer="SGI Onyx 350"  os="Irix 64">
+			<path value="/home/ixtli/PROYECTOS/040419SUC"/>
+				<version id="2" name ="suchilquitongoSGI"  script="run_3P_suchil_path.sh" description=""/>
+		</proyect_path>
+		<proyect_path computer="HP wx4900"  os="GNU/Linux Debian" ip="132.248.83.1" user="ixtli" password="ieghee2Q">
+			<path value="/home/ixtli/PROYECTOS/040419SUC"/>
+				<version id="3" name ="suchilquitongo3PMono"  script="run_3P_suchil_mono.sh"  description=""/>
+				<version id="4" name ="suchilquitongo3P"  script="run_3P_suchil_path.sh"  description=""/>
+		</proyect_path>
+    </proyect>
+
+   <proyect id="4" name= "Cabildo"  area="Humanidades y Artes">
+        <img src="recursos/Cabildo.jpg"/>
+            <tags>
+                    <tag id="1">Arquitectura</tag>
+                    <tag id="3">Construcciones</tag>
+                    <tag id="4">Edificios</tag>
+                </tags>
+             <proyect_path computer="HP wx4900"  os="GNU/Linux Debian" ip="132.248.83.1" user="ixtli" password="ieghee2Q">
+                        <path value="/home/ixtli/PROYECTOS/070127CAB"/>
+                             <version id="1" name ="Cabildo 3 Pantallas"  script="run_3D_cabildo.sh" descripcion=""/>
+                             <version id="2" name ="Cabildo 2 Pantallas"  script="run_2D_cabildo.sh" descripcion=""/>
+             </proyect_path>
+    </proyect>
+
+    <proyect id="5" name= "Circuitos Cerebrales"  area="Ciencias Biologicas Quimicas y de la Salud">
+        <img src="recursos/CircuitosC.png"/>
+            <tags>
+                    <tag id="1">Arquitectura</tag>
+                    <tag id="3">Construcciones</tag>
+                    <tag id="4">Edificios</tag>
+                </tags>
+             <proyect_path computer="HP wx4900"  os="GNU/Linux Debian" ip="132.248.83.1" user="ixtli" password="ieghee2Q">
+                        <path value="/home/ixtli/PROYECTOS/070201ECC"/>
+                             <version id="1" name ="Circuitos Cerebrales"  script="run_mixtlitla.sh" descripcion=""/>
+             </proyect_path>
+    </proyect>
+
+	<proyect id="33" name="Simulación numérica y visualización del fenómeno de cambio de fase (sólido-liquido) en cuerpos tridimensionales con geometría compleja." area="Ciencias Fisico Matematicas y de las Ingenierias">
+	<img src="recursos/CambioFase2.png"/>
+		<tags>
+			<tag id="51" value="fluidos"/>
+			<tag id="52" value="cambio fase"/>
+		</tags>
+		<proyect_path computer="HP wx4900">
+		<path value="/home/ixtli/PROYECTOS/070105FLU/IXTLI"/>
+			<version id="23" name="Fluidos-Cambio Fase" script="Cambiofase/CF.hx" description=""/>
+			<version id="29" name="Fluidos-Conveccion" script="conveccion/conveccion.hx" description=""/>
+			<version id="30" name="Fluidos-Polos Frios" script="juan/polosfrios.hx" description=""/>
+			<version id="31" name="Fluidos-PR_1" script="PR_1/rot_Pr1.hx" description=""/>
+			<version id="32" name="Fluidos-PR_10" script="PR_10/Pr_10.hx" description=""/>
+			<version id="33" name="Fluidos-rotconv" script="rotconv/rotconv.hx" description=""/>
+		</proyect_path>
+	</proyect>
+
+	<proyect id="13" name="Visualización de Estructuras geológicas tridimensionales y modelado de la propagación de ondas sísmicas a travéz de ellas. ." area="Ciencias Fisico Matematicas y de las Ingenierias">
+	<img src="recursos/structGeo1.png"/>
+		<tags>
+			<tag id="27" value="geologìa"/>
+			<tag id="28" value="ondas"/>
+			<tag id="31" value="propagación"/>
+			<tag id="32" value="sísmos"/>
+		</tags>
+	<proyect_path computer="HP wx4900">
+	<path value="/home/ixtli/PROYECTOS/070107SIS/Amira"/>
+		<version id="34" name="Estructuras Geologicas" script="run_EstructGeo.sh" description=""/>
+	</proyect_path>
+	</proyect>
+
+	<proyect id="51" name="Modelación tridimensional de la distribución de la radiación ultravioleta banda B en la República Mexicana" area="Ciencias Fisico Matematicas y de las Ingenierias">
+	<img src="recursos/RespMex4.png"/>
+		<tags>
+	      </tags>
+	<proyect_path computer="HP wx4900">
+	<path value="/home/igeof002"/>
+		<version id="74" name="Mapa Satelite" script="run_imgsSatelite.sh" description=""/>
+		<version id="75" name="Rad Solar" script="run_radSolar.sh" description=""/>
+	</proyect_path>
+	</proyect>
+
+	<proyect id="38" name="Diseño de un sistema de realidad virtual para la representación de fenómenos astronónicos en el sistema solar" area="Ciencias Fisico Matematicas y de las Ingenierias">
+	<img src="recursos/planeta.jpg"/>
+	<tags>
+		<tag id="68" value="Sistema solar"/>
+		<tag id="69" value="planetas"/>
+		<tag id="70" value="universo"/>
+	</tags>
+	<proyect_path computer="HP wx4900">
+	<path value="/home/ixtli/PROYECTOS/070119SOL"/>
+		<version id="43" name="SistemaSolar" script="dist/Release/GNU-Linux-x86/run_SisSolar.sh" description=""/>
+	</proyect_path>
+	</proyect>
+
+	<proyect id="40" name="Establecimiento y uso de modelos virtuales de cabeza, cuerpo y extremidades del Húron y Cuyo en la enseñanza de materias como anatomía, patología y medicina  de fauna silvestre" area="Ciencias Biologicas Quimicas y de la Salud">
+	<img src="recursos/Huron2.png"/>
+	<tags>
+		<tag id="74" value="Huron"/>
+		<tag id="75" value="Cuyo"/>
+		<tag id="76" value="Veterinaria"/>
+	</tags>
+	
+	<proyect_path computer="HP wx4900">
+	<path value="/home/ixtli/PROYECTOS/070225HUC"/>
+		<version id="71" name="Huron" script="run_Huron.sh" description=""/>
+		<version id="72" name="Loro" script="run_Loro.sh" description=""/>
+		<version id="73" name="Pecari" script="run_Pecari.sh" description=""/>
+		<version id="74" name="Huron Esqueleto" script="run_HuronEsqueleto.sh" description=""/>
+		<version id="75" name="Loro Esqueleto" script="run_LoroEsqueleto.sh" description=""/>
+		<version id="76" name="Pecari Esqueleto" script="run_PecariEsqueleto.sh" description=""/>
+	</proyect_path>
+	</proyect>
+
+	<proyect id="41" name= "Atizapan"  area="Humanidades y Artes">
+        <img src="recursos/Atizapan.jpg"/>
+            <tags>
+                    <tag id="1">Construcciones</tag>
+                    <tag id="2">Edificios</tag>
+                    <tag id="3">Antiguos</tag>
+                </tags>
+             <proyect_path computer="HP wx4900"  os="GNU/Linux Debian" ip="132.248.83.1" user="ixtli" password="ieghee2Q">
+                        <path value="/home/ixtli/PROYECTOS/Atizapan"/>
+                             <version id="1" name ="Atizapan 2 Pantallas"  script="run_2P_atizapan.sh" descripcion=""/>
+                             <version id="2" name ="Atizapan 3 Pantallas"  script="run_3P_atizapan.sh" descripcion=""/>
+             </proyect_path>
+    	</proyect>
+
+	<proyect id="42" name= "VideoDemo"  area="Otros recursos">
+        <img src="recursos/VideoDemo.jpg"/>
+             <proyect_path computer="HP wx4900"  os="GNU/Linux Debian" ip="132.248.83.1" user="ixtli" password="ieghee2Q">
+                        <path value="/home/ixtli/Desktop/Demo/video"/>
+                             <version id="1" name ="Demo Normal"  script="run_video_Demo.sh" descripcion=""/>
+                             <version id="2" name ="Demo subtitulos ingles"  script="run_video_DemoSubsIng.sh" descripcion=""/>
+             </proyect_path>
+    	</proyect>
+
+	<proyect id="43" name= "Video Suchilquitongo"  area="Otros recursos">
+        <img src="recursos/SuchilUbicacion.jpg"/>
+             <proyect_path computer="HP wx4900"  os="GNU/Linux Debian" ip="132.248.83.1" user="ixtli" password="ieghee2Q">
+                        <path value="/home/ixtli/Desktop/Demo/video"/>
+                             <version id="1" name ="ubicacion suchilquitongo"  script="run_suchil_Ubicacion.sh" descripcion=""/>
+             </proyect_path>
+    	</proyect>
+
+	<proyect id="43" name= "Ortodoncia"  area="Ciencias Biologicas Quimicas y de la Salud">
+        <img src="recursos/ortodoncia.png"/>
+            <tags>
+                    <tag id="1">Ortodoncia</tag>
+                    <tag id="2">Odontologia</tag>
+                    <tag id="3">Biologicas</tag>
+                </tags>
+             <proyect_path computer="HP wx4900"  os="GNU/Linux Debian" ip="132.248.83.1" user="ixtli" password="ieghee2Q">
+                        <path value="/home/ixtli/PROYECTOS/070216ODO"/>
+                             <version id="1" name ="ortodoncia"  script="run_OrtodonciaOdonto.sh" descripcion=""/>
+             </proyect_path>
+    	</proyect>
+
+
+</content>
+

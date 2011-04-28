@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE EquiposIxlti>
+<ListaEquipos>
+    <Equipo nombre="Xitle" modelo="SGI Onyx 350" IP="132.248.124.90">
+		<ListaContenidos numContenidos="1" fechaActualizacion="10/10/2010">
+			<RefProyecto id="1" nickname="craneoRector">Reconstruccion virtual de un craneo</RefProyecto>
+			<RefProyecto id="1" nickname="pony">Reconstrucción anatómica de un equino</RefProyecto>
+		</ListaContenidos>
+		<ListaSoftware numAplicaciones="3" fechaActualizacion="10/10/2010">
+			<Software nombre="Visage Amira" version="3.1" tipo="aplicacion" path="/usr/local/amira3.1" comando="amira" tamañoMB="500" descripcion=""/> 
+			<Software nombre="Qt" version="3.0" tipo="librerias" path="/usr/local/qt/3.0" comando="qmake" tamañoMB="400" descripcion=""/> 
+			<Software nombre="Fledermaus" version="3.1" tipo="aplicacion" path="/usr/local/fledermaus" comando="fledermaus" tamañoMB="200" descripcion=""/> 
+		</ListaSoftware>
+		<UsuarioConexionRemota nombre="demosrv" password="mtc810" puerto="22"/>
+		<UsuarioConexionRemota nombre="clase" password="mtc810Tp" puerto="22"/>
+		<UsuarioConexionRemota nombre="ixtli" password="crAR*_hu" puerto="22"/>
+	</Equipo>
+</ListaEquipos>
